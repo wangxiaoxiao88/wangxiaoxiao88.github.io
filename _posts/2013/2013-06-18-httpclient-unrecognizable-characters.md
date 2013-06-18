@@ -17,11 +17,12 @@ tags:
 3.httpclient问题  
 此时只能去怀疑httpclient，把Httpclient的log通过trace级别打出，发现问题机器比运行ok的机器打出的log多了3行。开始找为什么会多出这3行？发现多了以下内容:  
 > DEBUG 2013-06-18 10:45:52.46 [httpclient.wire.header] >> "Accept-Encoding:  gzip, deflate[\r][\n]" 
-<br> 
+
+ 
 真相大白了，原来是Accept-Encoding在搞鬼，它的作用可以看[HTTP协议之Content-Encoding](http://guojuanjun.blog.51cto.com/277646/667067).
 4.进一步分析
 为什么测试环境和线上环境不一致呢？线上环境的nginx中都配置了
->  gzip  on;
+> gzip  on;
 > gzip_http_version 1.0;
 而测试环境中，不知道被谁修改了hosts文件，使得post请求的域名指向了另外一台机器，而恰恰这台机器上的nginx没有配置以上属性，从而导致没有gzip压缩。
 ###解决方案
