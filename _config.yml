@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://geeklu.com
-author: 卢克
+url: http://wangxiaoxiao88.github.io/
+author: 王小小
 pygments: true
 paginate: 16

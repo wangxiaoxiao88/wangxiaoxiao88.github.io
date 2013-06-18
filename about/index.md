@@ -3,11 +3,10 @@ title: About me
 layout: page
 comments: yes
 ---
-  
-卢克进, 08年毕业于南京理工大学计算机学院.      
-熟练使用常见的计算机语言.      
-目前从事Mac,iOS开发相关工作.      
 
-个人邮箱:kejinlu@gmail.com      
-新浪微博: [http://weibo.com/kejinlu](http://weibo.com/kejinlu)      
-github : [https://github.com/kejinlu](https://github.com/kejinlu)      
+王小小，在吉大混过4年，又跑去浙大又玩了2年半。
+根本不是牛人，在努力培养兴趣ing。。。  
+
+个人邮箱: wc529065@gmail.com      
+新浪微博: [http://weibo.com/wangxiaoxiao](http://weibo.com/u/1624396471)      
+github : [https://github.com/wangxiaoxiao88](https://github.com/wangxiaoxiao88)      
