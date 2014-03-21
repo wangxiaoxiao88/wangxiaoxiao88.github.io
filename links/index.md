@@ -4,5 +4,5 @@ layout: page
 comments: yes
 ---
 
-暂无
+[亲爱的二哥](http://blog.wong2.me)
 
