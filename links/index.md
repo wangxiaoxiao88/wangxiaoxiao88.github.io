@@ -4,5 +4,5 @@ layout: page
 comments: yes
 ---
 
-[最最亲爱的二哥](http://blog.wong2.me)
-
+[土能能](http://long.52lax.net/)
+[二碧池](http://blog.wong2.me)
