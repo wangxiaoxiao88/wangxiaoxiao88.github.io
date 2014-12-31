@@ -1,6 +1,20 @@
-markdown: rdiscount
-permalink: /:year/:month/:title/
-url: http://wangxiaoxiao88.github.io/
-author: 王小小
-pygments: true
-paginate: 16
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            wong2
+tagline:          ''
+description:      '这里要有一句很文艺的话'
+url:              http://blog.wong2.me
+
+author:
+  name:           'wong2'
+  url:            http://wong2.me
+
+paginate:         5
+
+IMG_PATH:         http://wong2.qiniudn.com
