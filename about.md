@@ -7,3 +7,4 @@ title: About
 
 * Github: <https://github.com/wangxiaoxiao88>
 * 豆瓣: <http://www.douban.com/people/wangxiaoxiao88>
+* 人人: <http://www.renren.com/wangxiaoxiao88>
