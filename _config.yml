@@ -21,7 +21,7 @@ future:       true
 unpublished:  false
 
 # Conversion
-markdown:     kramdown
+#markdown:     kramdown
 highlighter:  pygments
 lsi:          false
 excerpt_separator: "\n\n"
@@ -42,7 +42,7 @@ timezone:      null
 title: 王小小
 description: ｡◕‿◕｡ 
 keywords: 
-url: http://wangxiaoxiao88.github.io/
+url: http://wangxiaoxiao88.github.io
 feed: /atom.xml
 favicon: http://jekyllrb.com/favicon.png
 
@@ -60,7 +60,7 @@ nav:
 #Author config
 author:
     name: 王小小
-    email: wc529065@gmail.com
+    email: 
     imageLink: http://7tsxti.com1.z0.glb.clouddn.com/Snip20140412_3.png 
     simpleIntro: 喜欢沙琪玛，喜欢杨千嬅，喜欢海贼王~ 
     detailIntro:

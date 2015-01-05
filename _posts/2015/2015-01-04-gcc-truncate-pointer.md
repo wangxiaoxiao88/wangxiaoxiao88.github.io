@@ -1,10 +1,8 @@
 ---
 layout: post
 title: gcc截断指针长度
-categories:
-- 技术
-tag:
-- gcc
+categories: "技术"
+tag: "gcc"
 ---
 1.问题
 今天在学习cpython的时候，发生了一个很诡异的问题。问题简单描述如下：
