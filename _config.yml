@@ -1,19 +1,84 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
 
-# Permalinks
-permalink:        pretty
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
 
-# Setup
-title:            王小小
-tagline:          ''
-description:      '菜菜的'
-url:              http://wangxiaoxiao88.github.io/
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
 
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: Jekyll Theme
+description: Just another Jekyll theme design and code by zhanxin.info.
+keywords: Jekyll Theme
+url: http://pizn.github.io/kunka
+feed: /atom.xml
+favicon: http://jekyllrb.com/favicon.png
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 分类目录 
+    url: /categories.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 联系我
+    url: /contact.html
+
+#Author config
 author:
-  name:           'xiaoxiao'
-  url:            http://wangxiaoxiao88.github.io/
+    name: 王小小
+    email: wc529065@gmail.com
+    imageLink: http://7tsxti.com1.z0.glb.clouddn.com/Snip20140412_3.png 
+    simpleIntro: 喜欢沙琪玛，喜欢杨千嬅，喜欢海贼王~ 
+    detailIntro:
 
-paginate:         5
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-weibo
+    url: http://weibo.com/wangxiaoxiao88
+  - class: icon-renren
+    url: http://renren.com/wangxiaoxiao88
+  - class: icon-github-alt
+    url: http://github.com/wangxiaoxiao88
 
+#comment config
+disqus:
+  config: false
+  id: wangxiaoxiao 
+
+duoshuo:
+  config: true
+  id: wangxiaoxiao
