@@ -21,12 +21,15 @@ tag:
 难道是gcc链接时的问题？我又把函数定义和函数使用放在了2个不同的文件中，果然发生了上文中的截断现象。
 
 3.
+
 去网上搜了一下，在这里找到了答案[linux GCC编译和使用方法](http://cjhust.blog.163.com/blog/static/175827157201492934526569/)。
 
 3.1 解决方案
+
 重新声明一个.h文件包含PyStr_Create()的声明，然后a.c引用这个.h
 
 3.2 警告
+
 关于上个链接中提到的警告，我没有找到，我这里的警告是这样的
 > incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
 
